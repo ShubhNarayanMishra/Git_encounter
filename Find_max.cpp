@@ -14,16 +14,17 @@
             cout<<num1;
           } 
         else
-             cout<<num3;    
+             cout<<num3<<endl;    
      }
      else 
      {
          if(num2>num3)
           {
-            cout<<num2;
+            cout<<num2<<endl;
           } 
         else
-             cout<<num3; 
+             cout<<num3<<endl; 
      }
+     cout<<"Done with Find_max"<<endl;
      return 0;
  }
